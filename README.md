@@ -1,2 +1,2 @@
-# Python
-This will be the repository for all my Python projects.
+# Craigslist Deal Finder
+Kyle Coniker and I were interested in finding deals on Craigslist. So we wrote a scraper to pull listings off Craigslist, clean the listings, send them to Edmund's API to get a True Car Value (trademark), and compute the difference between the TCV and listing price. If the car was listed for a certain amount under the TCV, we had it originally send us a text using the Twilio API but our keys ran out, so now we just email ourselves. We store the data in a MongoDB database. The project isn't running perfectly yet, but it does work. Due to being busy, we just haven't gotten around to truly automating the workflow and data collection.
